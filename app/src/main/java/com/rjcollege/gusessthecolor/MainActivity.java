@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         updatekeybord();
         NoOfInput();
 
-        
+
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             binding.input1.setShowSoftInputOnFocus(false);
@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 NoOfInput();
             } else {
-                Toast.makeText(this, "Name of Color Wrong Try Action", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Name of Color Wrong Try Again", Toast.LENGTH_SHORT).show();
                 currentInput = 1;
                 binding.input1.setText("");
                 binding.input2.setText("");
